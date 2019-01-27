@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/CoolveticaRg-Regular.eot');
+    src: url('font/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/CoolveticaRg-Regular.woff2') format('woff2'),
+        url('font/CoolveticaRg-Regular.woff') format('woff'),
+        url('font/CoolveticaRg-Regular.ttf') format('truetype'),
+        url('font/CoolveticaRg-Regular.svg#CoolveticaRg-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  background-image: url("img/bck_black.jpg");
+  min-width: 1200px;
+}
+
+.navi{
+	font-family: 'Coolvetica';
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	transition: 0.4s;
+}
+
+header {
+	max-height: 85px;
+	min-width: 100%;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    transition: 0.4s;
+}
+
+header:hover {
+  background-color: white;
+  color: black;
+}
+
+header:hover .navi{
+	color: black;
+}
+
+header:hover #logo{
+	background-image: url('img/ex2.png');
+}
+
+
+#logo {
+  margin-left: 30px;
+	min-width: 169px;
+	min-height: 85px;
+	margin-right: 20px;
+	background-image: url('img/ex.png');
+	transition: 0.4s;
+}
+
+#logo:hover {
+  transform: scale(1.5);
+}
+
+.navi:hover {
+	border:4px solid #00a3ff;
+}
+
+a {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-decoration: none;
+}
+
+.web {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  margin-top: 85px;
+  width: 90%;
+  height: 500px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 0px #000000;
+
+}
+
+#creation {
+  margin-left: 20px;
+  background: url("create/shirt/black.png") no-repeat;
+  width: 400px;
+  height: 500px;
+  transition: 0.3s;
+}
+
+#creation:hover {
+  transform: scale(1.1);
+}
+
+
+.form{
+  height: 100%;
+  width: 200px;
+  font-family: 'Coolvetica';
+  border-right:1px solid #b1b1b1;
+  border-left: 1px solid #b1b1b1;
+}
+
+#form_txt{
+  text-align: center;
+}
+
+.model {
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s
+}
+
+.model:hover {
+  transform: scale(1.02);
+}
+
+figure {
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.descform {
+  margin: 0;
+  text-align: center;
+}
+
+.color {
+  height: fit-content;
+  padding-bottom: 30px;
+  width: 600px;
+  border-bottom:1px solid #ababab;
+}
+
+.titlecolor{
+  font-family: 'Coolvetica';
+  padding-left: 10px;
+}
+
+.iconcolor {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colcon{
+  transition: 0.3s;
+  border:3px solid #ababab;
+}
+
+.colcon:hover{
+  transform: scale(1.2);
+}

@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/CoolveticaRg-Regular.eot');
+    src: url('font/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/CoolveticaRg-Regular.woff2') format('woff2'),
+        url('font/CoolveticaRg-Regular.woff') format('woff'),
+        url('font/CoolveticaRg-Regular.ttf') format('truetype'),
+        url('font/CoolveticaRg-Regular.svg#CoolveticaRg-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+  min-width: 1000px;
+}
+
+#bck {
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+    position:relative;
+}
+
+.web {
+   position: relative;
+   box-shadow: inset;
+}
+
+.navi{
+	font-family: 'Coolvetica';
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	transition: 0.4s;
+}
+
+header {
+	max-height: 85px;
+	min-width: 100%;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    transition: 0.4s;
+}
+
+header:hover {
+  background-color: white;
+  color: black;
+}
+
+header:hover .navi{
+	color: black;
+}
+
+header:hover #logo{
+	background-image: url('img/ex2.png');
+}
+
+
+#logo {
+  margin-left: 30px;
+	min-width: 169px;
+	min-height: 85px;
+	margin-right: 20px;
+	background-image: url('img/ex.png');
+	transition: 0.4s;
+}
+
+#logo:hover {
+  transform: scale(1.5);
+}
+
+.navi:hover {
+	border:4px solid #00a3ff;
+}
+
+a {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-decoration: none;
+}
+
+#enter {
+	display: block;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+    height: 500px;
+    margin-top: 85px;
+}
+
+#welco {
+	min-width: 100%;
+	color: white;
+	font-family: 'Coolvetica';
+	font-size: 90px;
+	text-align: center;
+}
+
+#welco:hover {
+  cursor: default;
+}
+
+#go {
+  cursor: pointer;
+	color: white;
+	font-family: 'Coolvetica';
+	font-size: 50px;
+	display: block;
+	width: 250px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #0066ff;
+	border:none;
+	transition: 0.3s;
+  border-radius: 12px;
+}
+
+#go:hover {
+	background-color: #66c2ff;
+  transform: scale(1.2);
+}
+
+
+#titre1 {
+  text-align: center;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;;
+	font-size: 40px;
+	font-family: 'Coolvetica';
+}
+
+#tex {
+  width: fit-content;
+  height:fit-content;
+  margin-left: 50px;
+	font-family: 'Coolvetica';
+}
+
+#tipar {
+  color: black;
+  text-decoration: underline;
+  font-family: 'Coolvetica';
+}
+
+#tipar:visited {
+  color: black;
+  text-decoration: underline;
+  font-family: 'Coolvetica';
+}
+
+.box {
+  height: fit-content;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pic {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  width: 100%;
+}
+.desc  {
+  text-align: center;
+  font-family: 'Coolvetica';
+}
+
+.imag {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.imag {
+  transition: 0.5s;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.imag:hover {
+  transform: scale(1.3);
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  background-color: #b0b0b0;
+  width: 100%;
+}
+
+.reso {
+  transition: 0.3s;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+}
